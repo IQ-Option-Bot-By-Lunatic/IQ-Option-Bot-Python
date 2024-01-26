@@ -3,7 +3,6 @@ import numpy as np
 from itertools import count
 from iqoptionapi.stable_api import IQ_Option
 from sklearn.linear_model import LinearRegression
-#Iq=IQ_Option("TsH4J9dzKs@outlook.com","IE7^0of/@bHxCo3")
 Iq=IQ_Option("email","password")
 ch,fa=Iq.connect()
 model=LinearRegression()
